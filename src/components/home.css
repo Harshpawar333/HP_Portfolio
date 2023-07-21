@@ -80,10 +80,11 @@
     color: black;
     font-family: "Lato", sans-serif;
     padding-top: 90px;
+    
 
 }
 
-.about img{
+.profile{
     height: 170px;
     width: 170px;
     border-radius: 100%;
@@ -91,10 +92,20 @@
     
 }
 
-.about p {
+
+.infoo a{
+    text-decoration: none;
+    color: black;
+}
+.infoo{
+    text-align: center;
     font-size: 16px;
     max-width: 650px;
     margin: 30px auto;
+    line-height: 1.7;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
 }
 
 .container{
@@ -108,3 +119,37 @@
     background-repeat: no-repeat;
     color: rgb(255, 255, 255); 
 }
+
+.about-TL{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 150px;
+    height: 46.21px;
+  }
+
+/* .icons:first-child{
+    margin-left: 0;
+} */
+
+.cap1{
+    display: initial;
+
+}
+
+.cap1:first-child{
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.cap1:last-child{
+    margin-left: 130px;
+    padding-right: 20px;
+}
+
+
