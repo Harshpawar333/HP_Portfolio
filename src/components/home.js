@@ -37,11 +37,11 @@ function Home() {
         </p>
         <h2 className="about-TL">TL;DR? SELF PROCLAMATIONS:</h2>
         
-        <img src={dev} className="iconss"></img>
+        <img src={dev} alt="logo" className="iconss"></img>
 
-        <img src={dataa} className="icons"></img>
+        <img src={dataa} alt="logo" className="icons"></img>
 
-        <img src={anime} className="icons"></img>
+        <img src={anime} alt="logo" className="icons"></img>
 <div>        <h4 className="cap1">Web Developer</h4>
         <h4 className="cap1">Data Analystr</h4>
         <h4 className="cap1">Anime</h4></div>
