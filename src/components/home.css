@@ -84,6 +84,17 @@
 
 }
 
+.passion{
+    text-align: center;
+    margin-top: 20px; /* Add a margin to separate it from the maindiv */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    padding-top: 90px;
+}
+
 .profile{
     height: 170px;
     width: 170px;
@@ -91,6 +102,24 @@
     object-fit: cover;
     
 }
+.profile2{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 200px;
+    
+}
+
+.profile22{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    object-fit: cover;
+    /* margin-left: 200px; */
+    
+}
+
 
 
 .infoo a{
@@ -123,7 +152,6 @@
 .about-TL{
     text-align: center;
     font-family: "Lato", sans-serif;
-    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -152,4 +180,50 @@
     padding-right: 20px;
 }
 
+.cap12{
+    display: initial;
+    margin-left: 70px;
 
+}
+
+.cap12:first-child{
+    margin-left: 0;
+    margin-right: 235px;
+    margin-left: 10px;
+}
+
+.cap12:last-child{
+    margin-left: 270px;
+}
+
+.capinfo{
+    display: initial;
+    width: 330px;
+    height: auto;
+    color: black;
+    font-weight: bold;
+    
+    text-align: center;
+
+}
+
+.capinfo:first-child{
+    margin-right: 60px;
+    margin-left: 0px;
+    
+}
+
+.capinfo:last-child{
+    margin-left: 50px;
+}
+
+/* .capinfo{
+    display: flex;
+    width: 330px !important;
+    color: black;
+    font-weight: bold;
+} */
+.infooo{
+    display: flex;
+    justify-content: center;
+}

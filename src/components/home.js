@@ -4,6 +4,9 @@ import profile from "./profile.JPG";
 import dev from "./dev.png";
 import anime from "./anime.png";
 import dataa from "./analyst.png";
+import complogo from "./complogo.png";
+import weblogo from "./weblogo.png";
+import managelogo from "./managelogo.png";
 function Home() {
   return (
     <div>
@@ -36,16 +39,57 @@ function Home() {
           traveling.
         </p>
         <h2 className="about-TL">TL;DR? SELF PROCLAMATIONS:</h2>
-        
         <img src={dev} alt="logo" className="iconss"></img>
 
         <img src={dataa} alt="logo" className="icons"></img>
 
         <img src={anime} alt="logo" className="icons"></img>
-<div>        <h4 className="cap1">Web Developer</h4>
-        <h4 className="cap1">Data Analystr</h4>
-        <h4 className="cap1">Anime</h4></div>
 
+        <div>
+          <h4 className="cap1">Web Developer</h4>
+          <h4 className="cap1">Data Analystr</h4>
+          <h4 className="cap1">Anime</h4>
+        </div>
+      </div>
+      <div className="passion">
+        <h1>WHAT I DO</h1>
+        <img src={complogo} alt="profile-pic" className="profile22"></img>
+        <img src={weblogo} alt="profile-pic" className="profile2"></img>
+        <img src={managelogo} alt="profile-pic" className="profile2"></img>
+        <div>
+          <h4 className="cap12">Design </h4>
+          <h4 className="cap12">Development</h4>
+          <h4 className="cap12">Management</h4>
+        </div>
+        <div className="infooo">
+          <h4 className="capinfo">
+            As a web developer with a passion for innovation and a user-centric
+            approach, I thrive on crafting visually captivating and responsive
+            user interfaces. With a strong foundation in front-end development,
+            I expertly leverage modern frameworks like React and Vue.js to build
+            immersive web experiences. My commitment to continuous learning
+            drives me to stay ahead of the latest industry trends, enabling me
+            to deliver cutting-edge solutions that exceed client expectations.
+          </h4>
+          <h4 className="capinfo">
+            As a web developer with a passion for innovation and a user-centric
+            approach, I thrive on crafting visually captivating and responsive
+            user interfaces. With a strong foundation in front-end development,
+            I expertly leverage modern frameworks like React and Vue.js to build
+            immersive web experiences. My commitment to continuous learning
+            drives me to stay ahead of the latest industry trends, enabling me
+            to deliver cutting-edge solutions that exceed client expectations.
+          </h4>
+          <h4 className="capinfo">
+            As a web developer with a passion for innovation and a user-centric
+            approach, I thrive on crafting visually captivating and responsive
+            user interfaces. With a strong foundation in front-end development,
+            I expertly leverage modern frameworks like React and Vue.js to build
+            immersive web experiences. My commitment to continuous learning
+            drives me to stay ahead of the latest industry trends, enabling me
+            to deliver cutting-edge solutions that exceed client expectations.
+          </h4>
+        </div>
       </div>
     </div>
   );
