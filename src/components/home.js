@@ -7,6 +7,7 @@ import dataa from "./analyst.png";
 import complogo from "./complogo.png";
 import weblogo from "./weblogo.png";
 import managelogo from "./managelogo.png";
+import { Link } from 'react-scroll';
 function Home() {
   return (
     <div>
@@ -52,7 +53,7 @@ function Home() {
         </div>
       </div>
       <div className="passion">
-        <h1>WHAT I DO</h1>
+        <h1>WHAT I DO<br/><br/></h1>
         <img src={complogo} alt="profile-pic" className="profile22"></img>
         <img src={weblogo} alt="profile-pic" className="profile2"></img>
         <img src={managelogo} alt="profile-pic" className="profile2"></img>
@@ -72,23 +73,35 @@ function Home() {
             to deliver cutting-edge solutions that exceed client expectations.
           </h4>
           <h4 className="capinfo">
-            As a web developer with a passion for innovation and a user-centric
-            approach, I thrive on crafting visually captivating and responsive
-            user interfaces. With a strong foundation in front-end development,
-            I expertly leverage modern frameworks like React and Vue.js to build
-            immersive web experiences. My commitment to continuous learning
-            drives me to stay ahead of the latest industry trends, enabling me
-            to deliver cutting-edge solutions that exceed client expectations.
+            Web development is my passion and profession, where I create dynamic
+            and engaging websites and web applications. With expertise in both
+            front-end and back-end technologies, I bring designs to life with
+            HTML, CSS, and JavaScript while ensuring seamless functionality and
+            interactivity with frameworks like React and Node.js. I strive for
+            responsive designs that adapt to various devices, providing an
+            optimal user experience. As a constant learner, I stay updated with
+            the latest trends and technologies, allowing me to deliver
+            innovative solutions that cater to the evolving needs of the digital
+            world.
           </h4>
           <h4 className="capinfo">
-            As a web developer with a passion for innovation and a user-centric
-            approach, I thrive on crafting visually captivating and responsive
-            user interfaces. With a strong foundation in front-end development,
-            I expertly leverage modern frameworks like React and Vue.js to build
-            immersive web experiences. My commitment to continuous learning
-            drives me to stay ahead of the latest industry trends, enabling me
-            to deliver cutting-edge solutions that exceed client expectations.
+            As a web developer, I am passionate about creating user-friendly and
+            visually appealing websites. I enjoy working on diverse projects,
+            from building interactive web applications to crafting engaging
+            landing pages. With a focus on clean code and attention to detail, I
+            strive to deliver high-quality results on time. I am committed to
+            continuous learning and staying up-to-date with the latest web
+            development trends to provide innovative and effective solutions for
+            each project.<br/><br/><br/><br/><br/><br/><br/>
           </h4>
+        </div>
+      </div>
+      <div className="experience">
+        <h1>EXPERIENCE</h1>
+        <h4>I've been doing web development for about 3 years now, and I'm always eager to learn more in this fast paced industry.</h4>
+        <div className="techno"></div>
+        <div className="worked">
+
         </div>
       </div>
     </div>

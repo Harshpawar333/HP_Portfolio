@@ -107,7 +107,7 @@
     width: 170px;
     border-radius: 100%;
     object-fit: cover;
-    margin-left: 200px;
+    margin-left: 315px;
     
 }
 
@@ -117,6 +117,7 @@
     border-radius: 100%;
     object-fit: cover;
     /* margin-left: 200px; */
+    padding-right: 20px;
     
 }
 
@@ -182,18 +183,18 @@
 
 .cap12{
     display: initial;
-    margin-left: 70px;
+    margin-left: 80px;
 
 }
 
 .cap12:first-child{
     margin-left: 0;
-    margin-right: 235px;
+    margin-right: 360px;
     margin-left: 10px;
 }
 
 .cap12:last-child{
-    margin-left: 270px;
+    margin-left: 395px;
 }
 
 .capinfo{
@@ -208,13 +209,13 @@
 }
 
 .capinfo:first-child{
-    margin-right: 60px;
+    margin-right: 160px;
     margin-left: 0px;
     
 }
 
 .capinfo:last-child{
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 /* .capinfo{
@@ -226,4 +227,26 @@
 .infooo{
     display: flex;
     justify-content: center;
+}
+
+
+.experience{
+    text-align: center;
+    margin-top: 20px; /* Add a margin to separate it from the maindiv */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    padding-top: 90px;
+
+    
+}
+
+
+.experience h4{
+    font-size: 16px;
+    font-weight: bold;
+    
+
 }
