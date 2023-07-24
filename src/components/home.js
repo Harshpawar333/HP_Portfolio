@@ -7,7 +7,7 @@ import dataa from "./analyst.png";
 import complogo from "./complogo.png";
 import weblogo from "./weblogo.png";
 import managelogo from "./managelogo.png";
-import { Link } from 'react-scroll';
+
 function Home() {
   return (
     <div>
